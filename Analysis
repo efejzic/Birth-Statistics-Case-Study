@@ -9,7 +9,6 @@ view(ncb)
 ncbs80 <- ncb %>% select(mage,weeks,gained,tounces,tgrams)
 
 view(ncbs80)
-
 write.xlsx(ncbs80,file_path)
 
 
