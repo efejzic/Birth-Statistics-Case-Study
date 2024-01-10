@@ -111,4 +111,10 @@ TGRAMS
    vars  n    mean     sd  skew kurtosis    se
 X1    1 80 3293.56 553.94 -0.92     2.69 61.93
 
+C)	Construct a histogram and comment on the shape of the distribution. 
 
+D)	Do the histograms for TOUNCES and TGRAMS look strikingly similar? Why?
+
+E)	Construct box-and-whisker plots. 
+
+F)	Construct side-by-side box-and-whisker plots for the variable TGRAMS for women who admitted to smoking and for those who did not admit to smoking. Do you see a difference in birth weight (TGRAMS) in the two groups? Which group has more variability? For each step provide the required numeric and graphic solution and discuss the results of that analysis with each step. In addition at the conclusion of the individual steps provide a brief summary of the results
