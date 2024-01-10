@@ -79,6 +79,36 @@ TGRAMS
 > range(mydata$tgrams)
 [1] 1077.3 4479.3
 
+B)	Calculate the skew and kurtosis. 
 
+MAGE
+
+> describe(mydata$mage,interp=TRUE,ranges=FALSE,skew=TRUE,na.rm=TRUE,type=2)
+   vars  n  mean   sd  skew kurtosis   se
+X1    1 80 27.38 6.32 -0.05    -0.64 0.71
+
+WEEKS
+
+> describe(mydata$weeks,interp=TRUE,ranges=FALSE,skew=TRUE,na.rm=TRUE,type=2)
+   vars  n  mean   sd  skew kurtosis   se
+X1    1 80 38.84 2.05 -0.36     2.86 0.23
+
+GAINED
+
+> describe(mydata$gained,interp=TRUE,ranges=FALSE,skew=TRUE,na.rm=TRUE,type=2)
+   vars  n  mean    sd skew kurtosis   se
+X1    1 78 29.86 14.83 1.63     5.09 1.68
+
+TOUNCES
+
+> describe(mydata$tounces,interp=TRUE,ranges=FALSE,skew=TRUE,na.rm=TRUE,type=2)
+   vars  n   mean    sd  skew kurtosis   se
+X1    1 80 116.17 19.54 -0.92     2.69 2.18
+
+TGRAMS
+
+> describe(mydata$tgrams,interp=TRUE,ranges=FALSE,skew=TRUE,na.rm=TRUE,type=2)
+   vars  n    mean     sd  skew kurtosis    se
+X1    1 80 3293.56 553.94 -0.92     2.69 61.93
 
 
