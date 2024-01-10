@@ -48,3 +48,7 @@ d) Do the histograms for TOUNCES and TGRAMS look strikingly similar? Why?
 e) Construct box-and-whisker plots.
 
 f) Construct side-by-side box-and-whisker plots for the variable TGRAMS for women who admitted to smoking and for those who did not admit to smoking. Do you see a difference in birth weight (TGRAMS) in the two groups? Which group has more variability?
+
+**Summary**
+
+**Conclusion**
