@@ -21,17 +21,15 @@ variable is critical to the analysis including choice of type of analysis
 
 <ins>Variable Label</ins> - <ins>Description
 
+MAGE - Age of mother (years)
+
 WEEKS - Completed weeks of gestation (weeks)
 
-SMOKE - 0 = mother did not smoke during pregnancy / 1 = mother did smoke during pregnancy
+GAINED - Weight gained during pregnancy (pounds)
+
+TOUNCES - Weight of child (ounces)
 
 TGRAMS - Weight of child (grams)
-
-ID - Subject (Observation number) Identifier
-
-Note: WEEKS and TGRAMS are continuous quantitative variables
-SMOKE is a qualitative, categorical, variable coded as a number
-ID is a quantitative discrete variable
 
 **Case Study**
 
