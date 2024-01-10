@@ -1,1 +1,20 @@
+Using this simple random sample (SRS) size 80 sample, for each of the 5 quantitative variables MAGE, WEEKS, GAINED, TOUNCES, and TGRAMS:
+
+SRS 80 
+
+ncb <- NCBIRTH800 %>% slice_sample(replace=FALSE,n=80)
+
+view(ncb)
+
+ncbs80 <- ncb %>% select(mage,weeks,gained,tounces,tgrams)
+
+view(ncbs80)
+
+write.xlsx(ncbs80,file_path)
+
+
+
+A) Calculate the mean, median, standard deviation, IQR, and range
+
+
 
