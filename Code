@@ -21,9 +21,10 @@ mydata <-read_excel("C:/Users/efejz/Documents/folder/ncbs80.xlsx")
 [1] 28
 > sd(mydata$mage)
 [1] 6.321302
-> range(mydata$mage)
-[1] 15 42
 > IQR(mydata$mage)
+[1] 9.25
+> range(mydata$mage)
+[1] 15 42 (42-15) = 27
 
 WEEKS
 
@@ -36,7 +37,7 @@ WEEKS
 > IQR(mydata$weeks)
 [1] 2
 > range(mydata$weeks)
-[1] 31 45
+[1] 31 45 (45-31) = 14
 
 GAINED
 
@@ -62,7 +63,7 @@ TOUNCES
 > IQR(mydata$tounces)
 [1] 22.5
 > range(mydata$tounces)
-[1]  38 158
+[1]  38 158 (158-38) = 120
 
 TGRAMS
 
@@ -77,7 +78,7 @@ TGRAMS
 > IQR(mydata$tgrams)
 [1] 637.875
 > range(mydata$tgrams)
-[1] 1077.3 4479.3
+[1] 1077.3 4479.3 (4479.3-1077.3) = 3402
 
 B)	Calculate the skew and kurtosis. 
 
