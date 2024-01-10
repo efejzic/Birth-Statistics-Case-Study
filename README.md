@@ -8,14 +8,11 @@ death data for all children born in the state of North Carolina. Records on birt
 This comprehensive data set for the births in 2001 contains 120,300 records. The data represents a 
 random sample of 800 of those births and selected variables.
 
-For this study we will extract a sample of 30 observations from the available 800 observations using **R**.
+For this study we will extract a sample of 80 observations from the available 800 observations using **R**.
 
 **Objectives**
 
-Develop and interpret numeric and graphic descriptive statistics to describe the data, specifically
-examining weeks of gestation, weight of child (in grams), and potential effect of smoking (status) on 
-weight. Note that the following description of the data as to data type and unit of measure for each 
-variable is critical to the analysis including choice of type of analysis
+
 
 **Data Description**
 
@@ -33,7 +30,7 @@ TGRAMS - Weight of child (grams)
 
 **Case Study**
 
-Draw a simple random sample (SRS) of size 80 from this 800 observation dataset for use in this assignment. You may want to save this sample for use in subsequent assignments as well as for backup for this unit. Using this SRS size 80 sample, for each of the 5 quantitative variables MAGE, WEEKS, GAINED, TOUNCES, and TGRAMS:
+Draw a simple random sample (SRS) of size 80 from this 800 observation dataset. Use this SRS size 80 sample, for each of the 5 quantitative variables MAGE, WEEKS, GAINED, TOUNCES, and TGRAMS:
 
 a) Calculate the mean, median, standard deviation, IQR, and range.
 
