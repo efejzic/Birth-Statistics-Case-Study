@@ -114,7 +114,60 @@ X1    1 80 3293.56 553.94 -0.92     2.69 61.93
 
 C)	Construct a histogram and comment on the shape of the distribution. 
 
-D)	Do the histograms for TOUNCES and TGRAMS look strikingly similar? Why?
+MAGE
+
+- Distribution Curve
+
+> hist(mydata$mage, xlab="MAGE", main= "Normal Curve for MAGE", breaks=11, probability=TRUE)
+> lines(density(mydata$mage, kernel="gaussian", na.rm=TRUE))
+
+- No Curve
+
+> hist(mydata$mage, xlab="MAGE", main="Normal Curve for MAGE", breaks=11, probability=FALSE)
+ 
+WEEKS
+
+- Distribution Curve
+
+> hist(mydata$weeks, xlab="WEEKS", main= "Normal Curve for WEEKS", breaks=11, probability=TRUE)
+> lines(density(mydata$weeks, kernel="gaussian", na.rm=TRUE))
+
+ - No Curve
+
+> hist(mydata$mage, xlab="WEEKS", main="Normal Curve for WEEKS", breaks=11, probability=FALSE)
+ 
+GAINED
+
+- Distribution Curve
+
+> hist(mydata$gained, xlab="GAINED", main= "Normal Curve for GAINED", breaks=11, probability=TRUE)
+> lines(density(mydata$gained, kernel="gaussian", na.rm=TRUE))
+ 
+ - No Curve
+
+> hist(mydata$gained, xlab="GAINED", main="Normal Curve for GAINED", breaks=11, probability=FALSE)
+ 
+TOUNCES
+
+- Distribution Curve
+
+> hist(mydata$tounces, xlab="TOUNCES", main= "Normal Curve for TOUNCES", breaks=11, probability=TRUE)
+> lines(density(mydata$tounces, kernel="gaussian", na.rm=TRUE))
+ 
+ - No Curve
+
+> hist(mydata$tounces, xlab="TOUNCES", main="Normal Curve for TOUNCES", breaks=11, probability=FALSE)
+ 
+TGRAMS
+
+- Distribution Curve
+
+> hist(mydata$tgrams, xlab="TGRAMS", main= "Normal Curve for TGRAMS", breaks=11, probability=TRUE)
+> lines(density(mydata$tgrams, kernel="gaussian", na.rm=TRUE))
+
+  - No Curve
+
+> hist(mydata$tgrams, xlab="TGRAMS", main="Normal Curve for TGRAMS", breaks=11, probability=FALSE)
 
 E)	Construct box-and-whisker plots. 
 
