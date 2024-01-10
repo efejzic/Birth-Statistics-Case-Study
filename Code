@@ -10,7 +10,7 @@ write.xlsx(ncbs80,file_path)
 
 - Analysis
 
-A) Calculate the mean, median, standard deviation, IQR, and range
+A)	   Calculate the mean, median, standard deviation, IQR, and range. 
 
 MAGE
 
