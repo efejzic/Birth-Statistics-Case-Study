@@ -22,29 +22,47 @@ Draw a simple random sample (SRS) of size 80 from this 800 observation dataset. 
 
 **a)   Calculate the mean, median, standard deviation, IQR, and range.**
 
-![mage](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/e61fcab6-468c-43b0-944f-ff6dc7f2d4c2)
+![Screenshot 2024-01-25 162336](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/7bb910d7-a44a-45af-8d97-0b2c8bdb9cff)
 
 •	Sample of 80 observations in total. The mean is 27.375 and the median is 28. Variability as measured by the SD for this sample is 6.3213; Range is 27 and IQR is 9.25.
 
-![weeks](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/8e8baf3b-1d29-4e33-9f37-1cbdd510613c)
+![Screenshot 2024-01-25 162350](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/b4caa6c3-d961-480d-b0ba-8739c64694b5)
 
 •	Sample of 80 observations in total. The mean is 38.837 and the median is 39. Variability as measured by the SD for this sample is 2.052; Range is 14 and IQR is 2.00.
 
-![gained](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/373446f1-6a06-410f-be71-93d700769a94)
+![Screenshot 2024-01-25 162411](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/2d291545-b886-4784-b7f9-d628115077a0)
 
 •	Sample of 80 observations in total with 2 missing values. The mean is 29.8589 and the median is 28. Variability as measured by the SD for this sample is 14.827; Range is 95 and IQR is 15.
 
-![tounces](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/46f287ca-9ddd-4ccf-b857-2eb2a9700759)
+![Screenshot 2024-01-25 162423](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/62e50f35-c545-483e-a157-3f1476abf104)
 
 •	Sample of 80 observations in total. The mean is 116.175 and the median is 117. Variability as measured by the SD for this sample is 19.539; Range is 120 and IQR is 22.50.
 
-![tgrams](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/0aafcbc3-72e6-4fa8-86ad-659775a5927b)
+![Screenshot 2024-01-25 162441](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/4056e720-f698-4ff4-a24e-bef09dc520ab)
 
 •	Sample of 80 observations in total. The mean is 3293.561 and the median is 3316.95. Variability as measured by the SD for this sample as 553.9446; Range is 3402 and IQR is 637.875.
 
-**b)   Calculate the skew and kurtosis.**
+**b)   Calculate the skew and kurtosis
 
+![Screenshot 2024-01-25 162818](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/16374ad6-e94f-45a9-a255-2106dfdc20a5)
 
+•	The random sample count is 80. Skew for mage was -0.05 and kurtosis was 0.71
+
+![Screenshot 2024-01-25 162911](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/60f52295-d71a-4c0d-9177-4b39630fc5d8)
+
+•	The random sample count is 80. Skew for weeks was -0.36 and kurtosis was 2.86
+
+![Screenshot 2024-01-25 163013](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/96ec4a38-a63d-4743-aebf-c3ff668d9bcd)
+
+•	Out of a sample size of 80 values, two values were missing under gained. Skew was 1.63 and kurtosis was 5.09. Gained is the only variable with a positive number skew.
+
+![Screenshot 2024-01-25 163028](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/9ddf9449-a64c-42d2-bc40-06b7ccc2efc0)
+
+•	The random sample count is 80. Skew for tounces is -0.92 and kurtosis is 2.69.
+
+![Screenshot 2024-01-25 163136](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/4cd86c59-6710-4f00-b71a-a3aa55be6ae5)
+
+•	The random sample count is 80. Skew for tgrams was -0.92 and the kurtosis was at 2.69, the same as variable tounces.
 
 **c)   Construct a histogram and comment on the shape of the distribution.**
 
@@ -94,13 +112,53 @@ The histograms for TOUNCES and TGRAMS do look similar. The variable TOUNCES is i
 
 **e)   Construct box-and-whisker plots.**
 
+Exploratory Data Analysis
+
+Box and whisker plots make use of the quartiles of a data set. A boxplot reveals information regarding the amount of spread, location of concentration, and symmetry of a data set.
+
+IQR = Q3 - Q1
+
+Range = Upper extreme – lower extreme
+
 **MAGE**
 
 ![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/31084b21-098e-4d16-afe0-e0b9f03ed99f)
 
-(min etc)
+![Screenshot 2024-01-25 163315](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/b08fae53-7dac-4848-b531-a52066c8e421)
 
 •	There was a total of 80 observations. The mean mage (age) was 27.38, close to the median of 28 years old. Variability as measured by the standard deviation for this sample was 6.32 years. The range for the median quartile (IQR) of observations was 9.25 years. The IQR of the variable mage is Q3 (32) – Q1 (22.75) = 9.25. Lower extreme = 10; upper extreme = 42; Range = 27
+
+**WEEKS**
+
+![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/9adf4aa8-8d44-4863-8096-7bf9bc8c21b3)
+
+![Screenshot 2024-01-25 163430](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/9c88957d-c1e1-4dea-9944-4da86e36db94)
+
+•	There was a total of 80 observations. The mean weeks was 38.84, close to the median of 39 weeks. Variability as measured by the standard deviation for this sample was 2.025 weeks. The range for the median quartile of observations (IQR) was 2.0 weeks. The IQR of the variable weeks is Q3 (40) – Q1 (38) = 2. Lower extreme = 31; upper extreme = 45; Range = 14
+
+**GAINED**
+
+![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/62140234-3fbb-44b9-8989-8f969c180cde)
+
+![Screenshot 2024-01-25 163513](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/a728d515-6cdc-4a61-b9a9-64ac1fcb50ba)
+
+•	Out of a sample size of 80, two values were missing under gained. The mean pounds gained was 29.86, close to the median of 28. Variability as measured by the standard deviation for this sample was 14.827. The range for the median quartile of observations (IQR) was 15 pounds. The IQR of the variable gained is Q3 (35) – Q1 (20) = 15. Lower extreme = 0; upper extreme = 95. Range = 95
+
+**TOUNCES**
+
+![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/d0a187ef-8856-4c3d-8d18-0d4aaaaace64)
+
+![Screenshot 2024-01-25 163607](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/7cca5b05-4681-46fd-a951-0c0aac83dd44)
+
+•	There was a total of 80 observations. The mean tounces was 116.2, close to the median of 117. Variability as measured by the standard deviation for this sample was 119.539. The range for the median quartile of observations (IQR) was 22.5 ounces. The IQR of the variable gained is Q3 (128.2) – Q1 (105.8) = 15. Lower extreme = 38; upper extreme = 158. Range = 120
+
+**TGRAMS**
+
+![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/6d4f9797-2a9a-400b-a31d-49803cf0504b)
+
+![Screenshot 2024-01-25 163636](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/4cf0e004-0b23-4e20-9e0d-1ad08c1a28bb)
+
+•	There was a total of 80 observations. The mean tgrams was 3294 grams, close to the median of 3317 grams. The variability measured by the standard deviation for this sample was 553.944 grams. The range for the median quartile (IQR) of observations was 637.875 grams. The IQR of the variable weeks is Q3 (3636) – Q1 (2998) = 637.875. Lower extreme = 1077; upper extreme = 4479; Range = 3402.
 
 
 **f)   Construct side-by-side box-and-whisker plots for the variable TGRAMS for women who admitted to smoking and for those who did not admit to smoking. Do you see a difference in birth weight (TGRAMS) in the two groups? Which group has more variability?**
