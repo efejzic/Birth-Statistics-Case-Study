@@ -42,7 +42,23 @@ Draw a simple random sample (SRS) of size 80 from this 800 observation dataset. 
 
 •	Sample of 80 observations in total. The mean is 3293.561 and the median is 3316.95. Variability as measured by the SD for this sample as 553.9446; Range is 3402 and IQR is 637.875.
 
-**b)   Calculate the skew and kurtosis
+**b)   Calculate the skew and kurtosis**
+
+**Skew:** Histograms that display asymmetry are described as skewed.
+
+_Positive_ skews with a lengthier tail distributed to the right indicate the mean exceeds mode and median. _Negative_ skews with a lengthier tail distributed to the left indicate the mode exceeds mean and median.
+
+
+**Kurtosis:** Measure to which distribution is “peaked” or flat in comparison to a normal, bell-shaped distribution. There are three types:
+
+_Platykurtic_ - excessive proportion of observations in its tails. Graph exhibits flattened appearance.
+
+_Leptokurtic_ – smaller proportion of observations in its tails. Graph exhibits peaked appearance.
+
+_Mesokurtic_ – normal, bell-shaped distribution.
+
+
+**Note:** Type 2 is used as the common default for all calculations
 
 ![Screenshot 2024-01-25 162818](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/16374ad6-e94f-45a9-a255-2106dfdc20a5)
 
@@ -65,6 +81,8 @@ Draw a simple random sample (SRS) of size 80 from this 800 observation dataset. 
 •	The random sample count is 80. Skew for tgrams was -0.92 and the kurtosis was at 2.69, the same as variable tounces.
 
 **c)   Construct a histogram and comment on the shape of the distribution.**
+
+**Histograms** represent frequency counts. When the left half and right half of the graph of a distribution are not mirror images of each other, the distribution is asymmetric. The horizontal axis represents values of the variable, and the vertical axis represents scale of frequency of occurrence.
 
 **Mage**
 
@@ -112,13 +130,13 @@ The histograms for TOUNCES and TGRAMS do look similar. The variable TOUNCES is i
 
 **e)   Construct box-and-whisker plots.**
 
-Exploratory Data Analysis
+_Exploratory Data Analysis_
 
-Box and whisker plots make use of the quartiles of a data set. A boxplot reveals information regarding the amount of spread, location of concentration, and symmetry of a data set.
+**Box and whisker plots** make use of the quartiles of a data set. A boxplot reveals information regarding the amount of spread, location of concentration, and symmetry of a data set.
 
-IQR = Q3 - Q1
+**IQR = Q3 - Q1**
 
-Range = Upper extreme – lower extreme
+**Range = Upper extreme – lower extreme**
 
 **MAGE**
 
@@ -165,7 +183,7 @@ Range = Upper extreme – lower extreme
 
 ![image](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/9b3f4a5e-d034-4e80-ba85-ba0c858c1c99)
 
-**Smoke** variable
+**Smoke** variable:
 
 **0** = mother did not smoke during pregnancy 
 
@@ -173,14 +191,12 @@ Range = Upper extreme – lower extreme
 
 ![Screenshot 2024-01-15 124121](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/28d68608-d958-49dd-89b9-00e08c4d6dd7)
 
-**Range** (Max – min) = 3402
-
+**Range** (Max – min) = 3402 |
 **IQR** (Q3 – Q1) = 723
 
 ![Screenshot 2024-01-15 124131](https://github.com/efejzic/Birth-Statistics-Case-Study/assets/119814593/138feee9-ba73-45a7-bf07-9d38c0f28974)
 
-**Range** (Max – min) = 1503
-
+**Range** (Max – min) = 1503 | 
 **IQR** (Q3 – Q1) = 369
 
 
